@@ -1,0 +1,148 @@
+.secret-box {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.color-guess {
+  min-height: 3rem;
+  max-width: 3rem;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-white {
+  background-color: white;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-none {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#guessColors {
+  visibility: hidden;
+}
+
+.marking {
+  min-height: 1.5rem;
+}
+
+.colour-dropdown {
+  max-width: 1rem !important;
+}
+
+.colour-select {
+  min-height: 1rem;
+}
+.Main_body
+{
+  position: relative;
+  left: 30%;
+  background-color: rgb(151, 149, 149);
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 10px 10px 10px black;
+  align-items: center;
+  text-align: center;
+}
+.line{
+  background-color: #aaa;
+  width: 100%;
+  height:5px ;
+  border-radius: 10px;
+}
+.Header_five_text
+{
+  width: 100%;
+  background-color: rgb(167, 168, 168);
+  text-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+.Head_text_and_other
+{
+  border-radius: 10px;
+  background-color: rgb(212, 216, 215);
+}
+.guessContainer
+{
+  position: relative;
+  left: 0.3%;
+  background-color: rgb(184, 185, 187);
+  width: 102%;
+  border-radius: 10px;
+}
+.guessContainer div div
+{
+  position: relative;
+  left: 30%;
+  border-radius: 10px;
+  background-color: rgb(227, 232, 236);
+  box-shadow: 5px 5px 5px black;
+}
+.guessContainer div div div div 
+{
+  position: relative;
+  left: 90%;
+  border-radius: 0px;
+  box-shadow: 10px 10px 10px black;
+}
+.answerSquares
+{
+  position: relative;
+  left: 35%;
+}
+@media (max-width: 1340px) {
+  .Main_body
+  {
+    width: 60%;
+  }
+  .guessContainer div div
+{
+ height: 50px;
+}
+.guessContainer div div div  
+{
+ height: 10px;
+}
+  
+}
+@media (max-width: 876px) {
+  .Main_body
+  {
+    position: relative;
+    left: 1%;
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  .guessContainer div div
+{
+  position: relative;
+  left: 10%;
+
+}
+}
+/*# sourceMappingURL=style.css.map */
